@@ -1,0 +1,101 @@
+    /* BAGAN KESELURUHAN */
+
+    header {
+        background: url("download.jpg");
+        color: white;
+        text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+        text-align: center;
+        padding: 60px;
+        position: relative;
+    }
+
+    h1 {
+        color: white;
+        text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    }
+
+    h2 {
+        color: white;
+        text-shadow: 1px 1px 2px black, 0 0 25px red, 0 0 5px rgb(232, 0, 0);
+    }
+
+    nav {
+        transition: 0, 3s ease;
+        background: rgb(240, 240, 240);
+    }
+
+    nav li a:hover,
+    nav li a:active {
+        background: hsl(0, 1%, 78%);
+        border-bottom: 3px solid #0d0023;
+    }
+
+    .lidropdown a:hover {
+        background: hsl(0, 3%, 85%);
+    }
+
+    body {
+        background-color: #0d0023;
+    }
+
+    footer {
+
+        color: rgb(255, 255, 255);
+        text-shadow: white;
+        background-image: url("darkside.jpg");
+    }
+
+    /* INDEX */
+
+    #bodyhome {
+        background-color: #09003664;
+        background-image: url("bgc4.png");
+    }
+    .imghome {
+        border: 15px solid rgba(1, 1, 66, 0.733);
+        box-shadow: 5px 5px 5px 5px white(0,0,0,0.7);
+    }
+    .icons {
+        color: tomato;
+    }
+
+    /* TENTANG */
+
+    .contenttentang {
+        background-image: url("bg12.png");
+    }
+
+    /* PROYEK */
+
+    #proyekcontent {
+        background-image: url("bg14.png");
+    }
+
+    .tableg {
+        background-image: url("");
+    }
+    /* PENDIDIKAN */
+    .contentpendidikan {
+        background-image: url("plat4.png");
+    }
+
+    .tablebg {
+        background-image: url("kurt3.png");
+        opacity: 0, 025;
+    }
+    /* KEMAMPUAN */
+
+    #kemkem {
+        background-image: url("ngan15.png");
+        /* background-color: #0d0023; */
+    }
+
+    /* KONTAK */
+    .contentkontak{
+        background-color: #05000e;
+    }
+
+    .icons2 {
+        color: tomato;
+        size-font: 50px;
+    }
